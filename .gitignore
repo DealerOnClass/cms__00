@@ -1,2 +1,4 @@
-.sass-cache/
-*.css.map
+ Ignore sass-cache files.
+*.sass-cache*
+node_modules/
+*.swp
