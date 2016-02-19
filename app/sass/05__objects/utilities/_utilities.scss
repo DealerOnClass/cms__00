@@ -94,3 +94,10 @@
 .border-x {
     border: 0 !important;
 }
+// Truncate
+// -------------------------
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
