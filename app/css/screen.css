@@ -13884,6 +13884,12 @@ span[data-toggle="tooltip"][data-style="danger"]:after {
   border: 0 !important;
 }
 
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .visible-xs {
   display: none !important;
 }
