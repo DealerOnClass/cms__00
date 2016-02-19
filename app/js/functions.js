@@ -277,21 +277,20 @@ function updateMagicTable(delay) {
     }, delay );
 
 };
-//  ////////////////////////////////////////
-//  //
-//  //  Navbar Swipe Events
-//  //
-//  //  $('#offcanvas-wrapper').swipe( {
-//  //      swipeRight:function() {
-//  //          $('#navbar-sidebar').collapse('show');
-//  //      },
-//  //      threshold: 0,
-//  //      allowPageScroll: "vertical"
-//  //  });
-//  //  $('#offcanvas-nav').swipe( {
-//  //      swipeLeft:function() {
-//  //          $('#navbar-sidebar').collapse('hide');
-//  //      },
-//  //      threshold: 0,
-//  //      allowPageScroll: "vertical"
-//  //  });
+
+////////////////////////////////////
+//
+//  $('thingIswipeon...').swipe( {
+//      swipeRight:function() {
+//          // do something..
+//      },
+//      threshold: 0,
+//      allowPageScroll: "vertical"
+//  });
+//  $('#offcanvas-nav').swipe( {
+//      swipeLeft:function() {
+//          $('#carousel').carousel('prev');
+//      },
+//      threshold: 0,
+//      allowPageScroll: "vertical"
+//  });

@@ -12082,6 +12082,24 @@ h5 [class*='sortable-'] {
   padding-right: 0;
 }
 
+.table-left-flush > thead > tr > th,
+.table-left-flush > thead > tr > td,
+.table-left-flush > tbody > tr > th,
+.table-left-flush > tbody > tr > td,
+.table-left-flush > tfoot > tr > th,
+.table-left-flush > tfoot > tr > td {
+  padding-left: 0;
+}
+
+.table-right-flush > thead > tr > th,
+.table-right-flush > thead > tr > td,
+.table-right-flush > tbody > tr > th,
+.table-right-flush > tbody > tr > td,
+.table-right-flush > tfoot > tr > th,
+.table-right-flush > tfoot > tr > td {
+  padding-right: 0;
+}
+
 .table-default {
   color: inherit;
   background-color: #e6e6e6;

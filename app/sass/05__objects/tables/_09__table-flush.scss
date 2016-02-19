@@ -11,3 +11,29 @@
         }
     }
 }
+
+.table-left-flush {
+    > thead,
+    > tbody,
+    > tfoot {
+        > tr {
+            > th,
+            > td {
+                padding-left: 0;
+            }
+        }
+    }
+}
+
+.table-right-flush {
+    > thead,
+    > tbody,
+    > tfoot {
+        > tr {
+            > th,
+            > td {
+                padding-right: 0;
+            }
+        }
+    }
+}
