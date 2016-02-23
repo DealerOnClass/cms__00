@@ -24,3 +24,9 @@ $card-footer__padding:          $card__y $card__x;
 //
 $card-img-overlay__bg:          rgba(0, 0, 0, 0.5);
 $card-img-overlay__color:       $white;
+//
+//  Variations
+$card--lg__padding:              ( $card__x * ( $base__font-ratio * 1.5 ) ) ( $card__x * ( $base__font-ratio * 1.5 ) );
+$card--md__padding:              ( $card__x * $base__font-ratio ) ( $card__x * $base__font-ratio );
+$card--sm__padding:              ( $card__x / $base__font-ratio ) ( $card__x / $base__font-ratio );
+$card--xs__padding:              ( $card__x / ( $base__font-ratio * 2 ) ) ( $card__x / $base__font-ratio );

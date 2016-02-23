@@ -1,4 +1,4 @@
- //  Plugins
+//  Plugins
 var gulp = require('gulp'),
     autoprefixer    = require('gulp-autoprefixer'),
     browserSync     = require('browser-sync'),

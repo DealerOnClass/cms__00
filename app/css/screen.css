@@ -4316,6 +4316,30 @@ h5 .btn-group {
   border-bottom: 0 none;
 }
 
+.card-lg .card-header,
+.card-lg .card-block,
+.card-lg .card-footer {
+  padding: 2.69932em 2.69932em;
+}
+
+.card-md .card-header,
+.card-md .card-block,
+.card-md .card-footer {
+  padding: 1.79955em 1.79955em;
+}
+
+.card-sm .card-header,
+.card-sm .card-block,
+.card-sm .card-footer {
+  padding: 1.01275em 1.01275em;
+}
+
+.card-xs .card-header,
+.card-xs .card-block,
+.card-xs .card-footer {
+  padding: 0.50638em 1.01275em;
+}
+
 .card-default {
   color: inherit;
 }
