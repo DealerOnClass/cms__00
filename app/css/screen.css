@@ -5612,7 +5612,7 @@ h5 .btn-group {
   color: #343c4b;
   border: 1px solid #cccccc;
   border-radius: 0.375em;
-  background-color: #e6e6e6;
+  background-color: white;
   background-image: none;
 }
 .form-control:focus {
@@ -7230,7 +7230,7 @@ h5 .btn-group {
   text-align: center;
   border: 1px solid #cccccc;
   border-radius: 0.375em;
-  background-color: #e6e6e6;
+  background-color: white;
 }
 .input-group-addon input[type='radio'],
 .input-group-addon input[type='checkbox'] {
@@ -12122,6 +12122,15 @@ h5 [class*='sortable-'] {
 .table-right-flush > tfoot > tr > th,
 .table-right-flush > tfoot > tr > td {
   padding-right: 0;
+}
+
+.table-align-top > thead > tr > th,
+.table-align-top > thead > tr > td,
+.table-align-top > tbody > tr > th,
+.table-align-top > tbody > tr > td,
+.table-align-top > tfoot > tr > th,
+.table-align-top > tfoot > tr > td {
+  vertical-align: top;
 }
 
 .table-default {
