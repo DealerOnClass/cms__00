@@ -294,3 +294,8 @@ function updateMagicTable(delay) {
 //      threshold: 0,
 //      allowPageScroll: "vertical"
 //  });
+
+////////////////////////////////////////
+//
+//  Table Magic
+//

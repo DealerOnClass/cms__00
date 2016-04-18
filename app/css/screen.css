@@ -11587,15 +11587,7 @@ button.list-group-item {
   background-color: #3662ad;
   box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
   position: relative;
-}
-.progress-bar > span {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 1em;
-  width: 2em;
-  margin-top: -.75em;
-  margin-left: -1em;
+  text-align: center;
 }
 
 .progress-striped .progress-bar,
@@ -12949,9 +12941,6 @@ h5 [class*='sortable-'] {
   background-color: #c34b47;
 }
 
-.tab-content {
-  padding: 0.9em 0.9em;
-}
 .tab-content > .tab-pane {
   display: none;
 }
@@ -14338,6 +14327,31 @@ a:hover .logo__svg {
   max-width: 34em;
   margin: 0 auto;
   padding: 4.5em 30px 0;
+}
+
+.feed__item {
+  padding: 1.5em 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.toolbar {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.toolbar-md {
+  padding-top: 0.7998em;
+  padding-bottom: 0.7998em;
 }
 
 [data-size='h1'] {
