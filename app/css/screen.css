@@ -14334,6 +14334,10 @@ a:hover .logo__svg {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+.feed__body {
+  padding-left: 4.2em;
+}
+
 .toolbar {
   display: -webkit-flex;
   display: -ms-flexbox;
