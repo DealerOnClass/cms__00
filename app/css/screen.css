@@ -7777,7 +7777,7 @@ button.list-group-item {
 
 .modal {
   position: fixed;
-  z-index: 1050;
+  z-index: 1150;
   top: 0;
   right: 0;
   bottom: 0;
@@ -8567,17 +8567,6 @@ button.list-group-item {
   overflow: hidden;
   zoom: 1;
   background-color: #343c4b;
-}
-
-.offcanvas,
-.offcanvas-wrapper,
-.offcanvas-nav,
-.offcanvas-inner,
-.navbar-sidebar-wrapper {
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
 }
 
 .oncanvas-nav.navbar {
@@ -13902,6 +13891,16 @@ span[data-toggle="tooltip"][data-style="danger"]:after {
   margin: 0 !important;
 }
 
+.margin-vert_5x {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.margin-vert-1x {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .border-x {
   border: 0 !important;
 }
@@ -14336,6 +14335,11 @@ a:hover .logo__svg {
 
 .feed__body {
   padding-left: 4.2em;
+}
+
+.feed__actions {
+  width: 10em;
+  text-align: right;
 }
 
 .toolbar {
